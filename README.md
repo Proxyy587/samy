@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### WIP: SAMY
 
-## Getting Started
+SAMY stands for **Spotify, Apple Music, and YouTube** (I like to think I'm quite creative with my naming skills!).
 
-First, run the development server:
+Most of us have playlists scattered between Spotify, Apple Music, and YouTube, and there's really no simple way to keep everything in sync. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**SAMY** aims to solve this by providing **real-time playlist synchronization** between your accounts on all three major music services. This means you can like a song on Spotify, and it’ll show up in your Apple Music and YouTube playlists automatically—or the other way around.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Key goals:**
+- Support real time playlist sync between YouTube, Apple Music, and Spotify
+- Playlist converter.
+- Privacy: Don't worry, I neither want nor store your logins, data, or “guilty pleasure” playlists (yes, all 473 Taylor Swift songs are safe). Im only here to help not judge!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is still a work in progress. If you'd like to contribute, please contact me via Discord or Instagram.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**The following npm packages are being used:**
+- better-auth
+- neon database/ serverless
+- drizzle-orm
